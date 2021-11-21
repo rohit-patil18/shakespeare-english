@@ -11,10 +11,6 @@ body {
     background-size: cover;
 }
 
-.text-center {
-    text-align: center;
-}
-
 textarea {
     display: block;
     margin: auto;
@@ -27,6 +23,43 @@ textarea {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     opacity: 0.8;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    color: black;
+    margin: 2rem;
+}
+
+.div1 {
+    height: 140px;
+    width: 100%;
+    color: #292e35;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.div1 h1 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.div1 h3 {
+    font-family: 'Petemoss', cursive;
+    font-size: xx-large;
 }
 
 #btn-translate {
@@ -42,13 +75,6 @@ textarea {
     font-size: large;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 1rem;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin-top: 20px;
+#out-txt {
+    margin-top: 10px;
 }
-
