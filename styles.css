@@ -1,7 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Petemoss&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("william-shakespeare.jpg");
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    max-width: 800px;
+    width: 60%;
+    height: 30vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+#btn-translate {
+    border: none;
+    padding: 0.8rem 1.3rem;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    color: #fde263;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    font-size: large;
 }
